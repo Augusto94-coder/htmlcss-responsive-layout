@@ -22,7 +22,7 @@ header {
 }
 
 .logo {
-    font-family: 'Nerko One', cursive, bold;
+    font-family: 'Nerko One', cursive;
     color: #ffa500;
     margin: 0;
 }
@@ -30,7 +30,7 @@ header {
 .container {
     width: 70%;
     margin: 0 auto;
-    padding: 20px 0;
+    padding: 1.5rem 0;
 }
 
 .recipe-header h2 {
@@ -40,7 +40,7 @@ header {
 .video-info {
     width: 100%;
     display: flex;
-    margin-top: 10px;
+    margin-top: 1.5rem;
 }
 
 .video {
@@ -71,6 +71,10 @@ header {
     color: black;
     text-decoration: none;
     border-radius: 10px;
+}
+
+.social-btn i {
+    padding: 10px 10px;
 }
 
 .banner img {
@@ -106,13 +110,12 @@ footer {
     background-color: #5c3d85;
     color: white;
     padding: 20px;
-    text-align: center;
+    align-items: center;
 }
 
 footer p {
     width: 20%;
     text-align: left;
-    ;
 }
 
 footer nav a {
